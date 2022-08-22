@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background-size: cover;
+    background-image:url('../images/white.jpg');
+    background: linear-gradient(to right top, #65dfc9,#6cdbeb);
+    background-image:url('../images/luxe.jpg');
+    background-size:cover;
+}
+
+header {
+    color: white;
+}
+
+header p {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.container {
+    display: flex;
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    border-radius:2rem;
+    padding: 1rem;
+}
+
+.information {
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    border-radius: 1rem;
+    width: 250px;
+    margin: 3rem;
+    padding: 1rem;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.myNewTaskInput {
+    margin-right: 1rem;
+    padding: 0.4rem;
+    border: 1px solid grey;
+    border-radius: .5rem;
+}
+
+.buttonBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.task,
+.buttonBox {
+    display: flex;
+    align-items: center;
+
+}
+
+.task {
+    height: 2rem;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.task-list {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.btn-warning {
+    background-color:#ffc107 !important;
+    color:black !important;
+
+}
+
+.btn-primary {
+    background-color:#03e0f4 !important;
+    border-color:#01d1e4 !important;
+    color:black !important;
+
+}
+
+.btn-success {
+    background-color:#07ff07 !important;
+    border-color:#07ff07 !important;
+    color:black !important;
+
+}
+
+.list-task {
+    padding:1rem;
+    border-radius:1rem;
+    margin-left:1rem;
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+   
+}
+
+.progress-bar {
+    background-color:#5b9229 !important;
+}
